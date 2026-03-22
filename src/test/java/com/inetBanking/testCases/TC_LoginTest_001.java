@@ -18,7 +18,7 @@ public class TC_LoginTest_001 extends BaseClass{
 		
 		//Interrupted Exception for Thread.sleep(2000);
 		
-		logger.info("URL is opened"); // this is logger variable created in base class.
+		logger.info("URL is opened now"); // this is logger variable created in base class.
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
 		logger.info("Enter username");
